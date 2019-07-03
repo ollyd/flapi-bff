@@ -1,0 +1,1 @@
+web: node -r esm src/app.js $PORT=8080

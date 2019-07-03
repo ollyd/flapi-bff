@@ -1,0 +1,39 @@
+{
+  "name": "flapi-bff",
+  "version": "1.0.0",
+  "description": "BFF for Flickr App",
+  "scripts": {
+    "dev": "PORT=8080 nodemon -r esm src/app.js",
+    "start": "node -r esm src/app.js"
+  },
+  "private": true,
+  "dependencies": {
+    "apollo-datasource-rest": "0.3.2",
+    "apollo-server-express": "2.4.8",
+    "body-parser": "1.18.3",
+    "compression": "1.7.3",
+    "cookie-parser": "1.4.3",
+    "dotenv": "6.2.0",
+    "esm": "3.2.25",
+    "express": "4.16.4",
+    "graphql": "14.0.2",
+    "graphql-tools": "4.0.3",
+    "helmet": "3.15.0",
+    "lodash": "4.17.11",
+    "request": "2.88.0",
+    "request-promise": "4.2.2",
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.4.4",
+    "@babel/core": "7.4.5",
+    "@babel/node": "7.4.5",
+    "@babel/preset-env": "7.4.5",
+    "@babel/register": "7.4.4",
+    "eslint": "5.11.0",
+    "nodemon": "1.18.7"
+  },
+  "engines": {
+    "node": "10.10.0"
+  }
+}
