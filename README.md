@@ -1,6 +1,6 @@
 ### Flapi-BFF
 
-A backend for the frontend layer for a web application which hits the Flickr public API to retrieve photos. The UI layer can be found here:
+A backend for the frontend layer for a web application which hits the Flickr public API to retrieve photos. The UI layer can be found [here](https://github.com/ollyd/flapi-ui).
 
 Note: the first time you hit the backend it will take a few seconds. This is because it's hosted on Heroku and it needs some time for the dyno to fire up. Subsequent hits will be much faster.
 
